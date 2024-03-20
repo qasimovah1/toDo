@@ -21,22 +21,21 @@ body {
   color: white;
   font-weight: 700;
 }
-#todo .col-md-3 input {
+#todo .col-md-3 .textbox input {
   border-radius: 20px;
   height: 50px;
 }
-#todo .col-md-3 .btn {
+#todo .col-md-3 .textbox .btn {
   border-radius: 15px;
   background: white;
   padding: 10px 20px;
   margin: 20px 0;
 }
-
-h2 {
+#todo .col-md-3 h2 {
   border-radius: 18px;
   padding: 12px 40px;
   margin: 10px 45px;
   text-align: center;
-  border: 1px solid #000;
+  border: 1px solid #030303;
   max-width: 180px;
 }/*# sourceMappingURL=style.css.map */
