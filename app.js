@@ -8,7 +8,7 @@ $(document).ready(function () {
           $('.box').append(`<h2>${y}</h2>`);
         }
       };
-      let num = h => {
+      let n = h => {
         if (Number(h)){
           return x(h);
         }
@@ -16,7 +16,7 @@ $(document).ready(function () {
           $('.box').append(`<h2>${h}</h2>`);
         }
       };
-      num ($('input').val());
+      n ($('input').val());
     }
     $('input').val('');
   })
